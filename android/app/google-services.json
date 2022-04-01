@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182960331309",
+    "project_id": "login-design-792c5",
+    "storage_bucket": "login-design-792c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182960331309:android:c2e202d1739fe37d9876a4",
+        "android_client_info": {
+          "package_name": "com.sadeequekeks.case_assessment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182960331309-l4o2l3jc2biipl4lskranqtnh7dfqcu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAO15U6CbrcPrMRfBwssks8YRytVVeMXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182960331309-l4o2l3jc2biipl4lskranqtnh7dfqcu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
