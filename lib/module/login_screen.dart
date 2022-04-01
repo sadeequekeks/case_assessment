@@ -1,3 +1,4 @@
+import 'package:case_assessment/module/screen/home_screen.dart';
 import 'package:case_assessment/widget/button/primary_button.dart';
 import 'package:case_assessment/widget/textfield/email_text_field.dart';
 import 'package:case_assessment/widget/textfield/pass_text_field.dart';
@@ -86,12 +87,13 @@ class _LoginPageState extends State<LoginPage> {
                               si.dialogService.showToaster(user);
                             } else {
                               startLoading();
-                              // si.routerService.popReplaceScreen(
-                              //   context,
-                              //   BottomNav(
-                              //     user: user,
-                              //   ),
-                              // );
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      HomeScreen(),
+                                ),
+                              );
                             }
                           });
                         }
